@@ -1,0 +1,1151 @@
+/* TEMPLATE */
+body {
+  margin: 0;
+  color: white;
+  font-size: 16px;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+.line {
+  background-color: #505050;
+  width: 100%;
+  height: 0.7em;
+}
+
+.socicon {
+  padding-top: 15px;
+  padding-left: 20px;
+}
+
+.socicon2 {
+  padding-top: 15px;
+  padding-left: 40px;
+}
+
+.socials {
+  height: 1.3em;
+  padding-right: 0.5em;
+  padding-top: 0;
+  padding-bottom: -0ch;
+}
+/* BOXES HOME */
+
+#box2 {
+  width: 100%;
+  height: 32em;
+  position: relative;
+  background-size: cover;
+  background-position: bottom;
+  background-repeat: repeat-x;
+  background-image:url("res/mario.jpg");
+}
+
+.box3 {
+  background-color: #454545;
+  width: 100%;
+  height: 33em;
+}
+
+.box4 {
+  width: 100%;
+  height: 35em;
+  background-size: cover;
+  background-position: bottom;
+  background-repeat: repeat-x;
+  background-image:url("res/sonic.jpg");
+}
+
+/* BOXES HOME END */
+
+/* TEMPLATE CONTINUATION*/
+
+.socialsrgu {
+  width: 2.5em;
+  padding-right: 0.5em;
+  padding-top: 0;
+  margin-left: -10px;
+  padding-bottom: -0ch;
+}
+
+.fixitpls {
+  margin-top: -15.5ch;
+}
+
+.logocontainer {
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.logo img{
+  display:block;
+  margin-left:auto;
+  margin-right:auto;
+  width: 16em;
+}
+
+.icons a {
+  width: 1.2em;
+  color: #202020;
+  text-decoration: none;
+}
+
+.icons {
+  padding: 4px;
+}
+
+.nav {
+  background-color: #505050;
+  width: 100%;
+  height: 2.5em;
+  z-index: 100;
+  font-size: 1.1em;
+}
+
+.header {
+  background-color: #bbbbbb;
+  width:100%;
+  height:12em;
+}
+
+.footer {
+  background-color: #bbbbbb;
+  width: 100%;
+  color: #101010;
+  height: 12em;
+  display: inline-block;
+}
+
+.nav ul {
+  margin: 0;
+  margin-left: -4%;
+  text-align: center;
+  list-style: none;
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  background-color: #505050;
+  z-index: 250;
+}
+
+.nav ul li {
+  display: inline-block;
+  text-align: center;
+  padding-top: 0.5em;
+  padding-right: 0.4em;
+  padding-left: 0.4em;
+  padding-bottom: 0.75em;
+  transition: background-color 0.5s, color 0.5s;
+  z-index: 250;
+}
+
+a {
+  color: white;
+}
+
+.nav ul li:hover {
+  background-color: #202020;
+  color: #bbbbbb;
+}
+
+.active {
+  background-color: #404040;
+}
+
+.forcecenter {
+  position: relative;
+  width: 100%;
+  margin-left: 50%;
+  text-align: center;
+  margin-right: auto;
+  display: inline-block;  
+  margin-left: auto;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.sticky + .content {
+  padding-top: 2.5em;
+}
+
+.footernav {
+  position: relative;
+  bottom: 9.5em;
+}
+
+.footernav ul {
+  columns: 2;
+  float: left;
+  display: block;
+  margin-left: 15em;
+  margin-right: auto;
+}
+
+.footernav ul a {
+  color: #202020;
+}
+
+/* GAMRR */
+
+.bggamrr {
+  background-image:
+  linear-gradient(to bottom,rgba(105,105,105,1)45%, rgba(31, 31, 31, 0)200%),url("res/ac.jpg");
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  height: 60em;
+}
+
+.heading {
+  text-align: center;
+  font-size: 4em;
+  padding-top: 1.2em;
+  color: white;
+  font-style: italic;
+  font-weight: 900;
+  text-shadow: 7px 7px 10px #202020;
+}
+
+.subheading {
+  text-align: center;
+  color: white;
+  font-size: 1.6em;
+  letter-spacing: 2px;
+  padding-bottom: 2em;
+}
+
+canvas:focus {
+  outline: none;
+}
+
+.disclaimer {
+  text-align: center;
+  color: white;
+  font-size: 1.2em;
+  letter-spacing: 1px;
+  padding-top: 2.6em;
+}
+
+.disclaimertext {
+  text-align: center;
+  color: white;
+  font-size: 0.7em;
+  padding-bottom: 1em
+}
+
+/* JOIN US HOME BOX */
+
+.joinustext {
+  font-family: 'Press Start 2P', cursive;
+  font-size: 0.97em;
+  color: black;
+  text-align: center;
+  line-height: 1.4em;
+  position: relative;
+  top: 13em;
+  z-index: 2;
+  right: 0;
+  text-shadow: 2px 2px 12px white,-2px -2px 12px white,2px -2px 12px white,-2px 2px 12px white;
+  -webkit-user-drag: none;
+  user-select: none;
+}
+
+.joinusbox {
+  width: 610px;
+  height: 150px;
+  background: #353535;
+  float: right;
+  position: relative;
+  top: 11.5em;
+  z-index: 1;
+  left: 0;
+  clip-path: polygon(0 0, 100% 0%, 100% 100%, 16% 100%);
+}
+
+#joinus:hover {
+  color: #808080;
+}
+
+
+#joinus {
+  color: white;
+  font-size: 5em;
+  position: absolute;
+  right: 2.18em;
+  z-index: 3;
+  font-style: italic;
+  font-weight: 900;
+  top: 2.55em;
+  transition: color 0.6s;
+  text-shadow: 10px 10px 10px #202020;
+}
+
+/* EVENTS BOX */
+
+.calendartext {
+  color: rgb(255, 255,255);
+  text-align: center;
+  padding-top: 0.3em;
+  font-size: 3.6em;
+  font-style: italic;
+  font-weight: 900;
+  text-shadow: 3px 3px 10px black;
+}
+
+.calendarcont img {
+  width: 20em;
+  position: absolute;
+  top: 56em;
+  right: 5em;
+  box-shadow: 5px 5px 60px #202020;
+  border-radius: 3em;
+  -webkit-user-drag: none;
+  user-select: none;
+}
+
+/* CONTACTS PAGE */
+
+.Surname input {
+  margin-left: 27px;
+  text-align: center;
+  font-size: 13px;
+}
+
+.nameContainer input {
+  margin-left: 62px;
+  text-align: center;
+  font-size: 13px;
+}
+
+.sID input {
+  margin-left: 10px;
+  text-align: center;
+  font-size: 13px;
+}
+
+.email input {
+  margin-left: 54px;
+  text-align: center;
+  font-size: 13px;
+}
+
+.container {
+  background-image: linear-gradient(to bottom,rgba(105,105,105,1)40%, rgba(105,105,105,0)150%),url("res/maplestory.png");
+  text-align:center;
+  width: 100%;
+  background-position: bottom;
+  background-size: cover;
+  height: 50em;
+  color: white;
+}
+
+p {
+  font-size: 20px;
+}
+
+.nameContainer label {
+    font-size: 20px;
+}
+
+.Surname label {
+  font-size: 20px;
+}
+
+.sID label {
+  font-size: 20px;
+}
+
+.email label {
+  font-size: 20px;
+}
+
+textarea {
+  width: 35%;
+  resize: none;
+}
+
+button {
+  margin-top: 20px;
+  font-size: 20px;
+  color: white;
+  background-color: #353535;
+  border-radius: 12px;
+  outline: none;
+}
+
+/* EVENTS PAGE */
+
+.homeevents {
+  text-align: left;
+}
+
+.event1 {
+  color: white;
+  position: absolute;
+  right: 52em;
+  top: 56.5em;
+}
+
+.event1homeheading {
+  font-style: italic;
+  font-size: 2em;
+  text-shadow: 3px 3px 5px #303030;
+  font-weight: 900;
+  position: relative;
+  right: 1em;
+  margin-bottom: 0.4em;
+}
+
+.event1hometext {
+  font-size: 1.2em;
+  font-style: italic;
+  font-weight: 300;
+  line-height: 1.5em;
+}
+
+.event2 {
+  color: white;
+  position: absolute;
+  right: 37em;
+  top: 68em;
+}
+
+.event2homeheading {
+  font-style: italic;
+  font-weight: 900;
+  font-size: 2em;
+  position: relative;
+  right: 1em;
+  text-shadow: 3px 3px 5px #303030;
+  margin-bottom: 0.4em;
+}
+
+.event2hometext {
+  font-size: 1.2em;
+  font-style: italic;
+  font-weight: 300;
+  line-height: 1.5em;
+}
+
+.bgevents {
+  background-image:
+  /*Gradient*/
+  linear-gradient(to bottom,rgba(105,105,105,1)40%, rgba(105,105,105,0)),url("res/background_events2.JPG");
+  width: 100%;
+  background-size: cover;
+  background-position: bottom;
+  height: 80em;
+}
+
+.headline{
+  padding: 0%;
+  margin: 0%;
+  font-weight: bold;
+  color: aliceblue;
+  font-size: xx-large;
+  position: absolute;
+  font-size: 450%;
+  float: left;
+  left: 45%;
+  top: 29%;
+}
+
+.kalendar{
+  float: right;
+  position: absolute;
+  right: 40%;
+  width: 19%;
+  top: 60%;
+  display:block;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+.h1events{
+  font-size:300%;
+  top: 100%;
+  position: absolute;
+  right: 40%;
+  font-weight: bold;
+  font-weight: 900;  
+}
+
+.p1{
+  font-size: 200%;
+  top: 106%;
+  right: 15%;
+  position: absolute;
+  font-weight: bold;
+  font-weight: 550;
+}
+
+.h2events{
+  font-size: 300%;
+  top: 127%;
+  right: 40%;
+  font-weight: bold;
+  font-weight: 900;
+  position:absolute;
+
+}
+
+.p2{
+  position: absolute;
+  font-size: 200%;
+  font-weight: bold;
+  font-weight: 550;
+  right: 49%;
+  top: 134%;
+}
+
+/* MEMBERS HOME PAGE */
+
+.homemembers {
+  position: relative;
+}
+
+.homemem1 {
+  position: absolute;
+  top: 2em;
+  right: 70%;
+  -webkit-user-drag: none;
+  user-select: none;
+}
+
+.homemem2 {
+  position: absolute;
+  top: 2em;
+  right: 45%;
+  -webkit-user-drag: none;
+  user-select: none;
+}
+
+.homemem3 {
+  position: absolute;
+  top: 2em;
+  right: 20%;
+  -webkit-user-drag: none;
+  user-select: none;
+}
+
+.homemem4 {
+  position: absolute;
+  top: 14em;
+  right: 33%;
+  -webkit-user-drag: none;
+  user-select: none;
+}
+
+.homemem5 {
+  position: absolute;
+  top: 14em;
+  right:58%;
+  -webkit-user-drag: none;
+  user-select: none;
+}
+
+.homemembers img {
+  width: 8em;
+  height: auto;
+  border-radius: 50%;
+  border-color: white;
+  border-width: 0.8em;
+  border-style: solid;
+  box-shadow: 5px 5px 10px black;
+  -webkit-user-drag: none;
+  user-select: none;
+}
+
+.membhome1 {
+  color: white;
+  font-weight: 900;
+  font-style: italic;
+  position: absolute;
+  width: 100%;
+  right: -24%;
+  top: 5em;
+  font-size: 2em;
+  text-shadow: 5px 5px 5px #101010;
+}
+
+.membhome2 {
+  color: white;
+  font-weight: 900;
+  font-style: italic;
+  position: absolute;
+  width: 100%;
+  right: -20%;
+  top: 5em;
+  font-size: 2em;
+  text-shadow: 5px 5px 5px #101010;
+}
+
+.membhome3 {
+  color: white;
+  font-weight: 900;
+  font-style: italic;
+  position: absolute;
+  width: 100%;
+  right: -20%;
+  top: 5em;
+  font-size: 2em;
+  text-shadow: 5px 5px 5px #101010;
+}
+
+.membhome4 {
+  color: white;
+  font-weight: 900;
+  font-style: italic;
+  position: absolute;
+  width: 100%;
+  right: -10%;
+  top: 5em;
+  font-size: 2em;
+  text-shadow: 5px 5px 5px #101010;
+}
+
+.membhome5 {
+  color: white;
+  font-weight: 900;
+  font-style: italic;
+  position: absolute;
+  width: 100%;
+  right: -10%;
+  top: 5em;
+  font-size: 2em;
+  text-shadow: 5px 5px 5px #101010;
+}
+
+/* RELATIVE COPYRIGHTS AND QUOTES */
+
+.copyright {
+  position: absolute;
+  top: 123em;
+  right: 2em;
+}
+
+.quote {
+  font-family: 'Press Start 2P', cursive;
+  position: absolute;
+  top: 148.5em;
+  left: 55em;
+  line-height: 2em;
+  font-size: 0.8em;
+  text-align: right;
+}
+
+.copyrightjoinus {
+  position: absolute;
+  top: 74.7em;
+  right: 2em;
+}
+
+.quotejoinus {
+  font-family: 'Press Start 2P', cursive;
+  position: absolute;
+  top: 87.5em;
+  left: 55em;
+  line-height: 2em;
+  font-size: 0.8em;
+  text-align: right;
+}
+
+.copyrightmembers {
+  position: absolute;
+  top: 130.7em;
+  right: 2em;
+}
+
+.quotemembers {
+  font-family: 'Press Start 2P', cursive;
+  position: absolute;
+  top: 157.5em;
+  left: 55em;
+  line-height: 2em;
+  font-size: 0.8em;
+  text-align: right;
+}
+
+.copyrightevents {
+  position: absolute;
+  top: 104.9em;
+  right: 2em;
+}
+
+.quoteevents {
+  font-family: 'Press Start 2P', cursive;
+  position: absolute;
+  top: 125.5em;
+  left: 55em;
+  line-height: 2em;
+  font-size: 0.8em;
+  text-align: right;
+}
+
+.copyrightgamrr {
+  position: absolute;
+  top: 84.9em;
+  right: 2em;
+}
+
+.quotegamrr {
+  font-family: 'Press Start 2P', cursive;
+  position: absolute;
+  top: 100.3em;
+  left: 55em;
+  line-height: 2em;
+  font-size: 0.8em;
+  text-align: right;
+}
+
+.copyrightarticles {
+  position: absolute;
+  bottom: -9em;
+  right: 2em;
+}
+
+.quotearticles {
+  font-family: 'Press Start 2P', cursive;
+  position: absolute;
+  bottom: -7em;
+  left: 55em;
+  line-height: 2em;
+  font-size: 0.8em;
+  text-align: right;
+}
+
+.copyrightgallery {
+  position: absolute;
+  bottom: -9em;
+  right: 2em;
+}
+
+.quotegallery {
+  font-family: 'Press Start 2P', cursive;
+  position: absolute;
+  bottom: -7em;
+  left: 55em;
+  line-height: 2em;
+  font-size: 0.8em;
+  text-align: right;
+}
+
+.copyrightdata {
+  position: absolute;
+  bottom: -9em;
+  right: 2em;
+}
+
+.quotedata {
+  font-family: 'Press Start 2P', cursive;
+  position: absolute;
+  bottom: -7em;
+  left: 55em;
+  line-height: 2em;
+  font-size: 0.8em;
+  text-align: right;
+}
+
+/* ARTICLES */
+
+.backgroundarticles {
+  background-image:
+  linear-gradient(to bottom,rgba(105,105,105,1)20%, rgba(105,105,105,0)),url("res/smnrs rift.jpg");
+  width: 100%;
+  background-size: cover;
+  height: auto;
+  background-position: top;
+}
+
+.headingarticles {
+  text-align: center;
+  padding-top: 50px;
+  font-size: 70px;
+  color: white;
+  font-style: italic;
+}
+
+.para1 {
+  width: 500px;
+  word-wrap: break-word;
+  padding-left: 550px;
+  color: white;
+  position: relative;
+  top: -180px;
+}
+
+
+.title-1 {
+  padding-left: 500px;
+  font-size: 20px;
+  color: white;
+}
+.subtitle-1 {
+  padding-left: 240px;
+  font-size: 20px;
+  font-style: italic;
+  color: white;
+}
+
+#img1 {
+  width: 14%;
+  height: auto;
+  position: relative;
+  left: 1100px;
+  top: -60px;
+}
+
+#img2 {
+  width: 14%;
+  height: auto;
+  position: relative;
+  left: 350px;
+  top: -60px;
+}
+
+#img3 {
+  width: 14%;
+  height: auto;
+  position: relative;
+  left: 1130px;
+  top: -70px;
+}
+
+.title-2 {
+  padding-left: 440px;
+  font-size: 20px;
+  color: white;
+}
+
+.subtitle-2 {
+  width: 750px;
+  padding-left: 620px;
+  font-size: 20px;
+  font-style: italic;
+  color: white;
+}
+
+.para-2 {
+  width: 500px;
+  word-wrap: break-word;
+  padding-left: 705px;
+  color: white;
+  position: relative;
+  top: -180px;
+}
+
+.title-3 {
+  padding-left: 500px;
+  font-size: 20px;
+  color: white;
+}
+
+.subtitle-3 {
+  width: 800px;
+  padding-left: 290px;
+  font-size: 20px;
+  font-style: italic;
+  color: white;
+}
+
+.para-3 {
+  width: 500px;
+  word-wrap: break-word;
+  padding-left: 500px;
+  color: white;
+  position: relative;
+  top: -180px;
+}
+
+/* Contact Us Page */
+
+.bgcontacts {
+  background-image:
+  /* REPLACE THE GREENSCREEN WITH YOUR IMAGE */
+  linear-gradient(to bottom,rgba(105,105,105,1)45%, rgba(105,105,105,0)),url("res/mafia3.jpg");
+  width: 100%;
+  margin-top: -2.7em;
+  background-size: cover;
+  height: 48em;
+}
+
+/* Gallery Page */
+
+.bggallery {
+  background-image:
+  /* REPLACE THE GREENSCREEN WITH YOUR IMAGE */
+  linear-gradient(to bottom,rgba(105,105,105,1)45%, rgba(105,105,105,0)120%),url("res/tombraider.jpg");
+  width: 100%;
+  margin-top: -2.7em;
+  background-size: cover;
+  background-position: bottom;
+  height: 77em;
+}
+
+.galleryone {box-sizing: border-box}
+
+.mySlides {display: none}
+.galleryone img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+ width: 500px;
+ length: 10px;
+ position: relative;
+ margin: auto;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+ cursor: pointer;
+ position: absolute;
+ top: 50%;
+ width: auto;
+ padding: 16px;
+ margin-top: -22px;
+ color: white;
+ font-weight: bold;
+ font-size: 18px;
+ transition: 0.6s ease;
+ border-radius: 0 3px 3px 0;
+ user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+ right: 0;
+ border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+ background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+ color: yellow;
+ font-size: 15px;
+ padding: 8px 12px;
+ position: absolute;
+ bottom: 8px;
+ width: 100%;
+ text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+ color: #f2f2f2;
+ font-size: 12px;
+ padding: 8px 12px;
+ position: absolute;
+ top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+ cursor: pointer;
+ height: 15px;
+ width: 15px;
+ margin: 0 2px;
+ background-color: #bbb;
+ border-radius: 50%;
+ display: inline-block;
+ transition: background-color 0.6s ease;
+}
+
+.activegal, .dot:hover {
+ background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+ -webkit-animation-name: fade;
+ -webkit-animation-duration: 1.5s;
+ animation-name: fade;
+ animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+ from {opacity: .4} 
+ to {opacity: 1}
+}
+
+@keyframes fade {
+ from {opacity: .4} 
+ to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+ .prev, .next,.text {font-size: 11px}
+}
+
+div.gallery {
+ margin: 5px;
+ border: 1px solid #ccc;
+ float: left;
+ width: 180px;
+}
+
+div.gallery:hover {
+ border: 1px solid #777;
+}
+
+div.gallery img {
+ width: 100%;
+ height: auto;
+}
+
+div.desc {
+ padding: 15px;
+ text-align: center;
+}
+
+.subheadingcontacts {
+  text-align: center;
+  color: white;
+  font-style: italic;
+  font-weight: 400;
+  font-size: 1.2em;
+  letter-spacing: 1px;
+  padding: -1em;
+}
+
+.subheadingcontacts2 {
+  text-align: center;
+  color: white;
+  font-style: italic;
+  font-weight: 400;
+  font-size: 1.2em;
+  padding-bottom: 2em;
+  letter-spacing: 1px;
+  padding: -1em;
+}
+
+/* GAME FINDES */
+
+.bggamefinder {
+  background-image:
+  /*Background */
+  linear-gradient(to bottom,rgba(105,105,105,1)65%, rgba(105,105,105,0)),url("res/Controller.jpg");
+  width: 100%;
+  background-position: bottom;
+  background-size: cover;
+  height: 85em;
+}
+.gamefinderr {
+  box-sizing: border-box;
+}
+
+/* Creates the rows */
+.row {
+  display: -ms-flexbox; 
+  display: flex;
+  -ms-flex-wrap: wrap; 
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+.imgdatamargin {
+  margin-right: 2em;
+}
+
+
+/* Creates 4 columns all 25 percent of the page */
+.column {
+  -ms-flex: 25%; 
+  flex: 25%;
+  max-width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+  display: block;
+}
+/* For the images in the columns */
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+}
+
+/* Turns the 4 columns into a 2 column layout*/
+@media screen and (max-width: 800px) {
+  .column {
+    -ms-flex: 50%;
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+/* Stacks the columns on top of each other to create the responsive layout */
+@media screen and (max-width: 600px) {
+  .column {
+    -ms-flex: 100%;
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+
+.bgdata {
+  background-image:
+  /* CyberPunk */
+  linear-gradient(to bottom,rgba(105,105,105,1)65%, rgba(105,105,105,0)120%),url("res/Cyperpunk.jpg");
+  width: 100%;
+  background-size: cover;
+  height: 85em;
+}
+
+h3 { 
+  color: white ;
+  font-family: 'Source Sans Pro', sans-serif;
+  text-align: center;
+  font-size: 32px; 
+}
+
+.column {
+ padding: 10px;
+} 
+
+.left {
+  margin-top: 2.2em;
+  width: 36%;
+  float: left;
+ }
+
+.columnright {
+  position: absolute;
+  top: 27em; 
+  left: 38em;
+  width: 58em;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.row img { 
+  position: relative;
+  right: -5em; 
+}
+
+.gradientdata p { 
+  margin-right: 150px;
+  color: white;
+  font-size: 1.04em;
+}
+  
+h2 { 
+color: white;
+font-size: 35px
+}
+
+h3 { 
+  margin-top: 50px;
+  font-size: 60px;
+}
